@@ -75,12 +75,9 @@ int getCount(ListNode* head){
         *tempVal = head -> data;
 		count++;
         break;
-      
-	  }
-      
+      }
       pntr = pntr -> next;
     }
-
     head = head -> next;
   }
   return count;
@@ -132,6 +129,4 @@ void displayLinkedList(){
 
 
   linkedListData.close();
-
-
 }

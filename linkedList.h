@@ -63,9 +63,8 @@ void addNode(int randNums){
 
 // counting the duplicate nodes within the linked list
 int getCount(ListNode* head){
+ 
   int *tempVal;
-  
-
   while (head -> next != NULL){
     
     ListNode *pntr = head -> next;
